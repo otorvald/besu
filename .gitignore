@@ -37,3 +37,20 @@ jitpack.yml
 **/**/.factorypath
 **/**/.jqwik-database
 .workspaces/
+
+# QBFT local cluster runtime data and logs
+qbft_network/**/database/
+qbft_network/**/caches/
+qbft_network/**/uploads/
+qbft_network/**/DATABASE_METADATA.json
+qbft_network/**/VERSION_METADATA.json
+qbft_network/**/besu.networks
+qbft_network/**/besu.ports
+network_data/
+logs/
+
+# Python virtual environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
